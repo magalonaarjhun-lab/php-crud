@@ -115,7 +115,6 @@
                         </div>
                     </div>
                 </main>
-                <footer class="py-4 bg-light mt-auto">
                     <?php include '../includes/footer.php';?>
                 </footer>
             </div>
