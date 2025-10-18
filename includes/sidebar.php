@@ -6,15 +6,15 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
-                            
-                            <div class="sb-sidenav-menu-heading">System</div>
+
+                            <div class="sb-sidenav-menu-heading">Systems</div>
                             <a class="nav-link" href="add_user.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
-                                Add user
+                                Add User
                             </a>
                             <a class="nav-link" href="user_list.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
-                                user list
+                                User List 
                             </a>
                         </div>
                     </div>

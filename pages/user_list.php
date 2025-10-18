@@ -1,17 +1,18 @@
-<?php include '../includes/header.php'; ?> 
+<?php include '../includes/header.php'; ?>   
 
-    <body class="sb-nav-fixed">
+   <body class="sb-nav-fixed">
+
         <?php include '../includes/navbar.php'; ?>
 
         <div id="layoutSidenav">
             <div id="layoutSidenav_nav">
                 <?php include '../includes/sidebar.php'; ?>
+
             </div>
-            
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Dashboard</h1>
+                        <h1 class="mt-4">User List</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active">Dashboard</li>
                         </ol>
@@ -19,7 +20,7 @@
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table me-1"></i>
-                                DataTable Example
+                                User
                             </div>
                             <div class="card-body">
                                 <table id="datatablesSimple">
@@ -30,13 +31,14 @@
                                             <th>Email</th>
                                             <th>Course</th>
                                             <th>Action</th>
+                                            
                                         </tr>
                                     </thead>
                                     <tbody>
                                             <?php
                                             require_once '../includes/db_connect.php';
 
-                                            $sql = "SELECT id, username, email, course FROM tbl_user";
+                                            $sql = "SELECT id, username, email, course FROM user";
                                             $result = $conn->query($sql);
 
                                             if ($result && $result->num_rows > 0) {
@@ -62,9 +64,13 @@
                         </div>
                     </div>
                 </main>
+
                 <?php include '../includes/footer.php'; ?>
+
             </div>
         </div>
-        <?php include '../includes/scripts.php'; ?> 
+
+        <?php include '../includes/scripts.php'; ?>
+
     </body>
 </html>

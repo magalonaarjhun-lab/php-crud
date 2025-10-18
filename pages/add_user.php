@@ -1,19 +1,23 @@
-<?php include '../includes/header.php';?>
-    <body class="sb-nav-fixed">
-        <?php include '../includes/navbar.php';?>
+<?php include '../includes/header.php'; ?>   
+
+   <body class="sb-nav-fixed">
+
+        <?php include '../includes/navbar.php'; ?>
 
         <div id="layoutSidenav">
             <div id="layoutSidenav_nav">
-                <?php include '../includes/sidebar.php';?>
+                <?php include '../includes/sidebar.php'; ?>
+
             </div>
             <div id="layoutSidenav_content">
-                <mainp><?php include '../includes/header.php';?>
-
+                <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Add User</h1>
+                        <h1 class="mt-4">Dashboard</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active">Dashboard</li>
                         </ol>
+                        <!--ADD USER-->
+                        USER FORM
 
                         <div class="card mb-4">
                             <div class="card-header">
@@ -57,9 +61,13 @@
                         </div>
                     </div>
                 </main>
-                    <?php include '../includes/footer.php';?>
+
+                <?php include '../includes/footer.php'; ?>
+
             </div>
         </div>
-        <?php include '../includes/scripts.php';?>
+
+        <?php include '../includes/scripts.php'; ?>
+
     </body>
 </html>
