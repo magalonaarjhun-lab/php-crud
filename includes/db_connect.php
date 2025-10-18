@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root"; // default XAMPP user
 $pass = "password";     // default XAMPP password is empty
-$db = "mikayla"; 
+$db = "php-crud"; 
 
 $conn = new mysqli($host, $user, $pass, $db);
 
